@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>user pdf</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        table{
+           border: 2px solid brown;
+           padding: 10px;
+           width: 80%;
+        }
+        th{
+            border: 2px solid orangered;
+            padding: 5px;
+        }
+      td{
+            border: 2px solid black; 
+            padding: 5px;
+            text-align: center;
+        }
+        img{
+          width: 100px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>User Information</h1>
+    <hr />
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>S.no</th>
+            <th>profile</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>email</th>
+            <th>mobile</th>
+            <th>DOB</th>
+            <th>Roles</th>
+            <th>States</th>
+            <th>Gender</th>
+            <th>postcode</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><img src={image} /></td>
+            <td>{firstname}</td>
+            <td>{lastname}</td>
+            <td>{email}</td>
+            <td>{mobileno}</td>
+            <td>{DOB}</td>
+            <td>{role}</td>
+            <td>{state}</td>
+            <td>{gender}</td>
+            <td>{postcode}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

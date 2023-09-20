@@ -1,0 +1,11 @@
+.btn{
+    display: flex;
+}
+.s-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.inselect{
+    width: 200px;
+}
